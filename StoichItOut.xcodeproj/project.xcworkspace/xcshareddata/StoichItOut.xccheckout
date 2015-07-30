@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FC5C2B8F-6116-4273-80D6-17B09B0E6049</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StoichItOut</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>65BFC72685FB54E45973B52415A65D3F75E54520</key>
+		<string>https://github.com/chan-kelv/StoichItOut-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StoichItOut.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>65BFC72685FB54E45973B52415A65D3F75E54520</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chan-kelv/StoichItOut-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>65BFC72685FB54E45973B52415A65D3F75E54520</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>65BFC72685FB54E45973B52415A65D3F75E54520</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StoichItOut</string>
+		</dict>
+	</array>
+</dict>
+</plist>
