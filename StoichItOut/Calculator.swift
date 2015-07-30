@@ -12,30 +12,21 @@ class Calculator: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-//        let gradient:CAGradientLayer = CAGradientLayer()
-//        gradient.frame = self.view.bounds
-//        
-//        let startColor = UIColor(red: 255, green: 95, blue: 0, alpha: 1).CGColor
-//        let finishColor = UIColor(red: 87, green: 62, blue: 47, alpha: 1).CGColor
-//        let gradientArray = [startColor, finishColor]
-//        let gradientLocation:[Float] = [0.0, 1.0]
-//        
-//        gradient.colors = gradientArray
-//        gradient.locations = gradientLocation
-//        view.layer.insertSublayer(gradient, atIndex: 0)
         
+        //set background color
+        view.backgroundColor = UIColor(red: 54/255, green: 238/255, blue: 238/255, alpha: 1)
     }
 
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        super.didReceiveMemoryWarning()
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-       
+        
+        //show nav bar
+        navigationController?.navigationBarHidden = false
     }
     
 
