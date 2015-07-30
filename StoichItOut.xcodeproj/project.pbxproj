@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D79325FE1B6A949A00CEC9C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79325FD1B6A949A00CEC9C6 /* AppDelegate.swift */; };
+		D79326001B6A949A00CEC9C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79325FF1B6A949A00CEC9C6 /* ViewController.swift */; };
+		D79326031B6A949A00CEC9C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79326011B6A949A00CEC9C6 /* Main.storyboard */; };
+		D79326051B6A949A00CEC9C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79326041B6A949A00CEC9C6 /* Images.xcassets */; };
+		D79326081B6A949A00CEC9C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D79326061B6A949A00CEC9C6 /* LaunchScreen.xib */; };
+		D79326141B6A949A00CEC9C6 /* StoichItOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79326131B6A949A00CEC9C6 /* StoichItOutTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D793260E1B6A949A00CEC9C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79325F01B6A949A00CEC9C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79325F71B6A949A00CEC9C6;
+			remoteInfo = StoichItOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D79325F81B6A949A00CEC9C6 /* StoichItOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoichItOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79325FC1B6A949A00CEC9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79325FD1B6A949A00CEC9C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D79325FF1B6A949A00CEC9C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D79326021B6A949A00CEC9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D79326041B6A949A00CEC9C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D79326071B6A949A00CEC9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D793260D1B6A949A00CEC9C6 /* StoichItOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoichItOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79326121B6A949A00CEC9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79326131B6A949A00CEC9C6 /* StoichItOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoichItOutTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79325F51B6A949A00CEC9C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D793260A1B6A949A00CEC9C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D79325EF1B6A949A00CEC9C6 = {
+			isa = PBXGroup;
+			children = (
+				D79325FA1B6A949A00CEC9C6 /* StoichItOut */,
+				D79326101B6A949A00CEC9C6 /* StoichItOutTests */,
+				D79325F91B6A949A00CEC9C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D79325F91B6A949A00CEC9C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79325F81B6A949A00CEC9C6 /* StoichItOut.app */,
+				D793260D1B6A949A00CEC9C6 /* StoichItOutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79325FA1B6A949A00CEC9C6 /* StoichItOut */ = {
+			isa = PBXGroup;
+			children = (
+				D79325FD1B6A949A00CEC9C6 /* AppDelegate.swift */,
+				D79325FF1B6A949A00CEC9C6 /* ViewController.swift */,
+				D79326011B6A949A00CEC9C6 /* Main.storyboard */,
+				D79326041B6A949A00CEC9C6 /* Images.xcassets */,
+				D79326061B6A949A00CEC9C6 /* LaunchScreen.xib */,
+				D79325FB1B6A949A00CEC9C6 /* Supporting Files */,
+			);
+			path = StoichItOut;
+			sourceTree = "<group>";
+		};
+		D79325FB1B6A949A00CEC9C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D79325FC1B6A949A00CEC9C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D79326101B6A949A00CEC9C6 /* StoichItOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				D79326131B6A949A00CEC9C6 /* StoichItOutTests.swift */,
+				D79326111B6A949A00CEC9C6 /* Supporting Files */,
+			);
+			path = StoichItOutTests;
+			sourceTree = "<group>";
+		};
+		D79326111B6A949A00CEC9C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D79326121B6A949A00CEC9C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79325F71B6A949A00CEC9C6 /* StoichItOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79326171B6A949A00CEC9C6 /* Build configuration list for PBXNativeTarget "StoichItOut" */;
+			buildPhases = (
+				D79325F41B6A949A00CEC9C6 /* Sources */,
+				D79325F51B6A949A00CEC9C6 /* Frameworks */,
+				D79325F61B6A949A00CEC9C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoichItOut;
+			productName = StoichItOut;
+			productReference = D79325F81B6A949A00CEC9C6 /* StoichItOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D793260C1B6A949A00CEC9C6 /* StoichItOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D793261A1B6A949A00CEC9C6 /* Build configuration list for PBXNativeTarget "StoichItOutTests" */;
+			buildPhases = (
+				D79326091B6A949A00CEC9C6 /* Sources */,
+				D793260A1B6A949A00CEC9C6 /* Frameworks */,
+				D793260B1B6A949A00CEC9C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D793260F1B6A949A00CEC9C6 /* PBXTargetDependency */,
+			);
+			name = StoichItOutTests;
+			productName = StoichItOutTests;
+			productReference = D793260D1B6A949A00CEC9C6 /* StoichItOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D79325F01B6A949A00CEC9C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Dev;
+				TargetAttributes = {
+					D79325F71B6A949A00CEC9C6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D793260C1B6A949A00CEC9C6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D79325F71B6A949A00CEC9C6;
+					};
+				};
+			};
+			buildConfigurationList = D79325F31B6A949A00CEC9C6 /* Build configuration list for PBXProject "StoichItOut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D79325EF1B6A949A00CEC9C6;
+			productRefGroup = D79325F91B6A949A00CEC9C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79325F71B6A949A00CEC9C6 /* StoichItOut */,
+				D793260C1B6A949A00CEC9C6 /* StoichItOutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79325F61B6A949A00CEC9C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79326031B6A949A00CEC9C6 /* Main.storyboard in Resources */,
+				D79326081B6A949A00CEC9C6 /* LaunchScreen.xib in Resources */,
+				D79326051B6A949A00CEC9C6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D793260B1B6A949A00CEC9C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79325F41B6A949A00CEC9C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79326001B6A949A00CEC9C6 /* ViewController.swift in Sources */,
+				D79325FE1B6A949A00CEC9C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79326091B6A949A00CEC9C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79326141B6A949A00CEC9C6 /* StoichItOutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D793260F1B6A949A00CEC9C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79325F71B6A949A00CEC9C6 /* StoichItOut */;
+			targetProxy = D793260E1B6A949A00CEC9C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D79326011B6A949A00CEC9C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79326021B6A949A00CEC9C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D79326061B6A949A00CEC9C6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79326071B6A949A00CEC9C6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D79326151B6A949A00CEC9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D79326161B6A949A00CEC9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D79326181B6A949A00CEC9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StoichItOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D79326191B6A949A00CEC9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StoichItOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D793261B1B6A949A00CEC9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StoichItOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoichItOut.app/StoichItOut";
+			};
+			name = Debug;
+		};
+		D793261C1B6A949A00CEC9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StoichItOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoichItOut.app/StoichItOut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79325F31B6A949A00CEC9C6 /* Build configuration list for PBXProject "StoichItOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79326151B6A949A00CEC9C6 /* Debug */,
+				D79326161B6A949A00CEC9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79326171B6A949A00CEC9C6 /* Build configuration list for PBXNativeTarget "StoichItOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79326181B6A949A00CEC9C6 /* Debug */,
+				D79326191B6A949A00CEC9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D793261A1B6A949A00CEC9C6 /* Build configuration list for PBXNativeTarget "StoichItOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D793261B1B6A949A00CEC9C6 /* Debug */,
+				D793261C1B6A949A00CEC9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D79325F01B6A949A00CEC9C6 /* Project object */;
+}
