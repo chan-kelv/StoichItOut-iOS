@@ -12,6 +12,7 @@ class CalculatorTableTableViewController: UITableViewController {
     @IBOutlet weak var txtConc: UITextField!
     @IBOutlet weak var txtMolarity: UITextField!
     @IBOutlet weak var txtVolume: UITextField!
+    @IBOutlet weak var txtMass: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +25,14 @@ class CalculatorTableTableViewController: UITableViewController {
         
         //set back button
         navigationController?.navigationBarHidden = false
-        
+    
         tableView.allowsSelection = false;
+        
+        //keyboard types
+        txtConc.keyboardType = UIKeyboardType.DecimalPad
+        txtMolarity.keyboardType = UIKeyboardType.DecimalPad
+        txtVolume.keyboardType = UIKeyboardType.DecimalPad
+        txtMass.keyboardType = UIKeyboardType.DecimalPad
     }
 
     override func didReceiveMemoryWarning() {

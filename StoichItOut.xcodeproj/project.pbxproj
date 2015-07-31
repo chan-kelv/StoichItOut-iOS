@@ -13,9 +13,9 @@
 		D79326051B6A949A00CEC9C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79326041B6A949A00CEC9C6 /* Images.xcassets */; };
 		D79326081B6A949A00CEC9C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D79326061B6A949A00CEC9C6 /* LaunchScreen.xib */; };
 		D79326141B6A949A00CEC9C6 /* StoichItOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79326131B6A949A00CEC9C6 /* StoichItOutTests.swift */; };
-		D79326201B6AADEC00CEC9C6 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793261F1B6AADEC00CEC9C6 /* Calculator.swift */; };
 		D79326241B6AC0EC00CEC9C6 /* GradientHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79326231B6AC0EC00CEC9C6 /* GradientHelper.swift */; };
 		D79326261B6AD70B00CEC9C6 /* CalculatorTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79326251B6AD70B00CEC9C6 /* CalculatorTableTableViewController.swift */; };
+		D79326281B6AE25300CEC9C6 /* MolarCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79326271B6AE25300CEC9C6 /* MolarCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,9 @@
 		D793260D1B6A949A00CEC9C6 /* StoichItOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoichItOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79326121B6A949A00CEC9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D79326131B6A949A00CEC9C6 /* StoichItOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoichItOutTests.swift; sourceTree = "<group>"; };
-		D793261F1B6AADEC00CEC9C6 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		D79326231B6AC0EC00CEC9C6 /* GradientHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientHelper.swift; sourceTree = "<group>"; };
 		D79326251B6AD70B00CEC9C6 /* CalculatorTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorTableTableViewController.swift; sourceTree = "<group>"; };
+		D79326271B6AE25300CEC9C6 /* MolarCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolarCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				D79325FF1B6A949A00CEC9C6 /* ViewController.swift */,
-				D793261F1B6AADEC00CEC9C6 /* Calculator.swift */,
 				D79326251B6AD70B00CEC9C6 /* CalculatorTableTableViewController.swift */,
 			);
 			name = ViewControllers;
@@ -133,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				D79326231B6AC0EC00CEC9C6 /* GradientHelper.swift */,
+				D79326271B6AE25300CEC9C6 /* MolarCalculator.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -241,7 +241,7 @@
 				D79326241B6AC0EC00CEC9C6 /* GradientHelper.swift in Sources */,
 				D79326261B6AD70B00CEC9C6 /* CalculatorTableTableViewController.swift in Sources */,
 				D79325FE1B6A949A00CEC9C6 /* AppDelegate.swift in Sources */,
-				D79326201B6AADEC00CEC9C6 /* Calculator.swift in Sources */,
+				D79326281B6AE25300CEC9C6 /* MolarCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
