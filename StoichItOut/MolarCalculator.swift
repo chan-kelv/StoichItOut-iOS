@@ -19,14 +19,35 @@ class MolarCalculator {
         self.mass = doubleFromString(mass)
         self.volume = doubleFromString(volume)
     }
-    
+
     func doubleFromString(numberText:String) -> Double{
         //non decimal number will return as 0.0
         return (numberText as NSString).doubleValue
     }
     
-    func Calculate(){
-        
+    /*
+        mass(g) = [](mol/L) * Molarity(g/mol) * Volume(L)
+             [] = m/(M * V)
+              M = m/([] * V)
+              V = m/([] * M)
+    */
+    func solveMass() -> Double{
+        return (conc * molarity * volume)
+    }
+    
+    func solveConc() -> Double{
+        return solveUnknown(mass, denomOne: molarity, denomTwo: volume)
+    }
+    
+    func solveMol() ->Double{
+        return solveUnknown(mass, denomOne: conc, denomTwo: volume)
+    }
+    
+    func solveVol() -> Double{
+        return solveUnknown(mass, denomOne: conc, denomTwo: molarity)
+    }
+    func solveUnknown(numerator:Double, denomOne:Double, denomTwo:Double) -> Double{
+        return (numerator / (denomOne * denomTwo))
     }
    
 }
